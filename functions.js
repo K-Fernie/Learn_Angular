@@ -17,3 +17,10 @@ const mult = function (num1, num2) {
     return num1 * num2;
 };
 console.log(mult(4, 2));
+//Generic function
+function getItems(items) {
+    return new Array().concat(items);
+}
+//allows you to create a function to remove repetition when type is something that may be variable
+let concatResult = getItems([1, 2, 3, 4, 5]);
+let concatString = getItems(['a', 'b', 'c', 'd', 'e']);
