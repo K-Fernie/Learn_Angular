@@ -16,9 +16,19 @@ class Employee {
   getNameWithAddress(): string {
     return `${this.name} ${this.address}`;
   }
+  //getter
+  get empId(): number {
+    return this.#id;
+  }
+  //setter
+  set empId(id: number) {
+    this.#id = id;
+  }
 }
 
 let emp = new Employee(1, 'John', 'Highway 71');
 let address = emp.getNameWithAddress();
+emp.empId = 123456;
 
 console.log(address);
+console.log(emp.empId);
