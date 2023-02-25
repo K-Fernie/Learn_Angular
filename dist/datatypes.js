@@ -28,3 +28,4 @@ department = 'IT';
 department = 10;
 //void
 //never
+//# sourceMappingURL=datatypes.js.map

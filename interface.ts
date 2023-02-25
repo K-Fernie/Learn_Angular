@@ -50,3 +50,10 @@ let [user1, user2, ...restUsers]: User[] = [
 console.log(user1);
 
 //NOTE INTERFACES DO NOT EXIST IN JAVASCRIPT
+
+//Decorators
+//In order to use decorators you will need to enable experimentalDeocrators in tsconfig
+// @Component({})
+// class Component{
+//   constructor(public name: string){}
+// }

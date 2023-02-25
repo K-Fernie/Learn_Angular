@@ -41,3 +41,4 @@ let address = emp.getNameWithAddress();
 emp.empId = 123456;
 console.log(address);
 console.log(emp.empId);
+//# sourceMappingURL=class.js.map
